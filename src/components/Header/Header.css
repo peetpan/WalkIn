@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1f2834;
+  padding: 10px 10px;
+}
+
+.account-logo {
+  width: 40px;
+}

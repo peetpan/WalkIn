@@ -1,0 +1,7 @@
+.content {
+  padding: 40px 20px;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

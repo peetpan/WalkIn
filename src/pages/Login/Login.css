@@ -1,0 +1,122 @@
+.header {
+  background-color: #1f2834;
+  padding: 10px 20px;
+}
+
+p {
+  font-weight: 600;
+  color: #585858;
+}
+
+body {
+  background-color: #eeeeee;
+  font-weight: 400;
+  margin: 0;
+  accent-color: #1f7a54;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 4px solid #59ceed;
+  margin-top: 12%;
+  margin-left: 25%;
+  border-radius: 4px;
+  background-color: white;
+  width: 50%;
+}
+
+.heading {
+  align-self: center;
+  font-weight: 700;
+  font-size: 22px;
+  color: black;
+}
+
+.input-text {
+  margin: 0px 35px 0px;
+}
+
+.input-text-field {
+  font-weight: 500;
+  border: 2px solid white;
+  border-bottom: 2px solid #eaeaea;
+  font-size: 1rem;
+  font-family: externalFont;
+  width: 100%;
+}
+
+.forgot {
+  text-decoration: none;
+  color: #7cb19b;
+  font-weight: 800;
+  font-size: smaller;
+  float: right;
+}
+
+.wrapper-remember {
+  display: flex;
+  gap: 2px;
+  margin-left: 35px;
+  font-size: 15px;
+}
+
+input .box {
+  width: 14px;
+}
+
+form {
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+}
+
+button {
+  margin: 0px;
+  align-self: center;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 13px;
+  width: 200px;
+  height: 2.5rem;
+  background-color: #3fd28b;
+  color: #22383c;
+  border-style: hidden;
+  box-shadow: 0px 2px 6px 1px lightgray;
+}
+
+.create-account {
+  gap: 4px;
+  margin-top: 20px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.account-text {
+  font-weight: 500;
+  text-align: center;
+  font-size: 12px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 35px;
+  width: 100%;
+  text-align: center;
+  gap: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #449070;
+  font-weight: 800;
+  font-size: smaller;
+}
+
+span {
+  color: lightgrey;
+}
