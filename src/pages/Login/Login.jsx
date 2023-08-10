@@ -1,6 +1,6 @@
 import "./Login.css";
 import headerLogo from "../../assets/header_logo.svg";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Login() {
   const navigate = useNavigate();
@@ -54,9 +54,11 @@ export default function Login() {
         </form>
         <div className="create-account">
           <div className="account-text">Not registered yet?</div>
-          <a className="forgot" href="">
-            CREATE AN ACCOUNT?
-          </a>
+          <Link to="/personal-information">
+            <a className="forgot" href="">
+              CREATE AN ACCOUNT?
+            </a>
+          </Link>
         </div>
       </div>
       <footer>

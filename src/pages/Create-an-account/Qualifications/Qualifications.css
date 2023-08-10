@@ -1,0 +1,54 @@
+.qual-input-box {
+  padding: 0;
+  margin: 24px 24px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.education-header {
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #dbefff;
+}
+
+.education-header > img {
+  width: 20px;
+}
+
+.education-input {
+  padding: 25px;
+}
+
+.box-input {
+  width: 240px;
+}
+
+.input-name {
+  font-size: 15px;
+  color: #666666;
+}
+
+.input-double {
+  display: flex;
+  gap: 20px;
+}
+
+.input-double .box-input {
+  width: 450px;
+}
+
+.radio-double {
+  margin: 10px 0;
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+}
+
+.button-box {
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 400px;
+}

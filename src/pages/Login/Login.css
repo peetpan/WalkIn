@@ -72,7 +72,7 @@ form {
   flex-direction: column;
 }
 
-button {
+.container > button {
   margin: 0px;
   align-self: center;
   border-radius: 2px;

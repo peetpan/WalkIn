@@ -39,7 +39,7 @@ hr {
 }
 
 span {
-  color: #6a6a6a;
+  color: #858585;
   font-size: 15px;
   font-weight: 600;
 }
@@ -89,7 +89,7 @@ span {
   border-radius: 20px;
 }
 
-button {
+.card > button {
   cursor: pointer;
   align-self: center;
   background-color: #3fd28b;

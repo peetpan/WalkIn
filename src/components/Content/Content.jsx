@@ -17,7 +17,7 @@ export default function Content() {
       note: "Internship Opportunity for MCA Students",
     },
     {
-      title: "Walk In For Gangster ship",
+      title: "Walk In For Gangster Role",
       date: "1-Mar-2023 to 3-Mar-2023",
       expires_in: "",
       place: "Wasseypur",
