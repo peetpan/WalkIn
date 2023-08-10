@@ -1,0 +1,31 @@
+.edit-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 25px;
+  font-size: 18px;
+  align-items: center;
+}
+
+.edit-box {
+  display: flex;
+  font-size: 16px;
+  color: #1f7a54;
+  font-weight: 500;
+}
+
+.edit-box img {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.text {
+  margin: 10px 0 20px;
+}
+
+.button-content .text {
+  color: black;
+}
+
+.input-name {
+  width: 500px;
+}

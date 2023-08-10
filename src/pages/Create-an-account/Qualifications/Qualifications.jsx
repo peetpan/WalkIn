@@ -270,7 +270,7 @@ export default function PersonalInfomation() {
           </div>
         )}
       </div>
-      <div className="button-box">
+      <div className="bottom-button-box">
         <button onClick={onPrevious} className="nextbutton" type="submit">
           PREVIOUS
         </button>

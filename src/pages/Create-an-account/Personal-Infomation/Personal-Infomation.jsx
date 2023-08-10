@@ -45,7 +45,7 @@ export default function PersonalInfomation() {
         <div className="display-box">
           <img src={photo} alt="" />
           <div className="upload-text">UPLOAD DISPLAY PHOTO</div>
-          <div className="input-name">Max. image size: 5 MB</div>
+          <div className="img-input-name">Max. image size: 5 MB</div>
         </div>
         <div className="input-name">First Name*</div>
         <input className="box-input" type="text" name="" id="" />

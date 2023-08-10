@@ -47,8 +47,23 @@
   font-size: 18px;
 }
 
-.button-box {
+.bottom-button-box {
   display: flex;
   margin-bottom: 20px;
   margin-left: 400px;
+  gap: 20px;
+}
+
+.bottom-button-box > button {
+  margin: 0px;
+  align-self: center;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 13px;
+  width: 100px;
+  height: 2.5rem;
+  background-color: #3fd28b;
+  color: #22383c;
+  border-style: hidden;
+  box-shadow: 0px 2px 6px 1px lightgray;
 }

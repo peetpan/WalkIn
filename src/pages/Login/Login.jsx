@@ -39,7 +39,7 @@ export default function Login() {
               FORGOT PASSWORD?
             </a>
           </div>
-          <div className="wrapper-remember">
+          <div className="login-wrapper-remember">
             <input
               className="box"
               type="checkbox"
@@ -48,9 +48,9 @@ export default function Login() {
             />
             <p>Remember me</p>
           </div>
-          {/* <Link to="/appointments"> */}
-          <button type="submit">LOG IN</button>
-          {/* </Link> */}
+          <button className="submit" type="submit">
+            LOG IN
+          </button>
         </form>
         <div className="create-account">
           <div className="account-text">Not registered yet?</div>
